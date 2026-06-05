@@ -1,26 +1,26 @@
 class Rail < Formula
   desc "Per-feature git worktrees with isolated ports, env files, and hooks"
   homepage "https://github.com/kgonyon/rail"
-  version "1.2.3"
+  version "1.2.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kgonyon/rail/releases/download/v1.2.3/rail_Darwin_arm64.tar.gz"
-      sha256 "05218c1bea88ebe3f861730b6cfbe55d7c61fdbd2a0b864eebf6162dce049cd6"
+      url "https://github.com/kgonyon/rail/releases/download/v1.2.4/rail_Darwin_arm64.tar.gz"
+      sha256 "70e208a44168ccec6e9a04d81d81c910b7147e49fb016fc39a4108519466263e"
     else
-      url "https://github.com/kgonyon/rail/releases/download/v1.2.3/rail_Darwin_x86_64.tar.gz"
-      sha256 "177a1973d3ab21d3ed742b4141b6b0e23df4186462ac90f000c55ad2f790fa6a"
+      url "https://github.com/kgonyon/rail/releases/download/v1.2.4/rail_Darwin_x86_64.tar.gz"
+      sha256 "d435945e6799c7eef2cc8cf692702271e193dc7d2d25b16128c74dcbe1a6b1cd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kgonyon/rail/releases/download/v1.2.3/rail_Linux_arm64.tar.gz"
-      sha256 "1fe4b1e3964470adae9e389fc8f17213e4da2407ca937fc40d7f13aab06024ca"
+      url "https://github.com/kgonyon/rail/releases/download/v1.2.4/rail_Linux_arm64.tar.gz"
+      sha256 "cfd7b819c2ca4f1c47a2c10b6f05201164c34d1e4d18d5283c21d8a9bc9b4261"
     else
-      url "https://github.com/kgonyon/rail/releases/download/v1.2.3/rail_Linux_x86_64.tar.gz"
-      sha256 "f6636bdd3a2b6721d04eb0bd81cb57966c9c4c9554ef289cf9b7a07c67a575b5"
+      url "https://github.com/kgonyon/rail/releases/download/v1.2.4/rail_Linux_x86_64.tar.gz"
+      sha256 "fbe8993a847db70a66246b557d2489bfa7cc5b399e862781ea8825e486d78724"
     end
   end
 
